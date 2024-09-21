@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Funcionários</title>
+</head>
+<body>
+
+    <h1>Sistema de Funcionários</h1>
+
+    <form>
+        Nome: <input type="text" id="nome"><br>
+        Idade: <input type="number" id="idade"><br>
+        Cargo: 
+        <select id="cargo">
+            <option value="Gerente">Gerente</option>
+            <option value="Desenvolvedor">Desenvolvedor</option>
+        </select><br>
+        Departamento: <input type="text" id="departamento"><br>
+        Linguagem de Programação: <input type="text" id="linguagem"><br>
+        <button type="button" onclick="criarFuncionario()">Criar Funcionario</button>
+    </form>
+
+    <div id="resultado"></div>
+    <div id="erro" style="color: red;"></div>
+
+    <script src="ind.js"></script>
+
+</body>
+</html>
